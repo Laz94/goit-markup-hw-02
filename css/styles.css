@@ -191,7 +191,8 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  border: 1px solid #000000;}
+  border: 1px solid #000000;
+}
 
 .text {
   font-family: "Roboto";
@@ -203,9 +204,10 @@
   color: #434455;
   flex: none;
   order: 1;
-  flex-grow: 0;}
+  flex-grow: 0;
+}
 
-  .advantages {
+.advantages {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -226,7 +228,6 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
-
 
 .app {
   font-family: "Roboto";
