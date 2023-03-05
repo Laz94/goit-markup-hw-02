@@ -181,19 +181,17 @@
 }
 
 /* section 1 */
-
-.advantages {
+.teams {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
+  border: 1px solid #000000;}
 
 .text {
   font-family: "Roboto";
@@ -205,9 +203,20 @@
   color: #434455;
   flex: none;
   order: 1;
+  flex-grow: 0;}
+
+  .advantages {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
   flex-grow: 0;
 }
-
 /* section 2 */
 .title-tools {
   font-size: 36px;
@@ -217,18 +226,8 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
-.teams {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  border: 1px solid #000000;
-}
+
+
 .app {
   font-family: "Roboto";
   font-style: normal;
