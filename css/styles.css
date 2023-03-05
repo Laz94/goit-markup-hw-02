@@ -3,7 +3,7 @@
   color: #434455;
   background-color: #e5e5e5;
 }
-.page{
+.page {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #e5e5e5;
@@ -31,8 +31,6 @@
   text-decoration: none;
 }
 
-
-
 /* Стилі логотипу */
 
 .page-header-logo {
@@ -45,7 +43,6 @@
   color: #4d5ae5;
   text-decoration: none;
 }
-
 
 .studio {
   color: #2e2f42;
@@ -145,30 +142,6 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  
-}
-.team p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.h1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.1;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
 }
 
 .order-service {
@@ -208,9 +181,7 @@
 }
 
 /* section 1 */
-.advantage {
-  background-color: #2e2f42;
-}
+
 .advantages {
   font-family: "Roboto";
   font-style: normal;
@@ -268,9 +239,10 @@
   color: #2e2f42;
   flex: none;
   order: 0;
-  flex-grow: 0;}
+  flex-grow: 0;
+}
 
-  .team-information{
+.team-information {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -281,11 +253,10 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  }
-
+}
 
 .page-footer-logo {
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
