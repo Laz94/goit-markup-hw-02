@@ -3,11 +3,7 @@
   color: #434455;
   background-color: #e5e5e5;
 }
-.page {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #e5e5e5;
-}
+
 
 :root {
   --primary-brand-color: #4d5ae5;
@@ -22,55 +18,6 @@
   --hero-background-color: #2e2f42;
 }
 
-/* відміна стилів */
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-/* Стилі логотипу */
-
-.page-header-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.studio {
-  color: #2e2f42;
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-/* стилі меню навігації*/
-
-.site-nav {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
 .adress-nav {
   font-family: "Roboto";
@@ -80,28 +27,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.page-header-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.pages {
-  color: var(--dark-color);
-  list-style: none;
-  text-decoration: none;
 }
 
 /* header i focus */
@@ -114,22 +39,18 @@
 .site-nav a:focus {
   color: #404bbf;
 }
-.contacts {
-  font-style: normal;
-}
-.contacts a {
-  color: #434455;
+.page-header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
 }
 
-.contacts a:hover,
-.contacts a:focus {
-  color: #404bbf;
-}
 
-.page-footer-logo:hover,
-.page-footer-logo:focus {
-  color: #404bbf;
-}
 .hero {
   background-color: #2e2f42;
 }
@@ -194,18 +115,7 @@
   border: 1px solid #000000;
 }
 
-.text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
+
 
 .advantages {
   font-family: "Roboto";
@@ -266,10 +176,11 @@
   text-decoration: none;
 }
 .studio-footer {
-  color: #f4f4fd;
+  
 }
-.page-footer {
-  background-color: #2e2f42;
+.page-footer-logo:hover,
+.page-footer-logo:focus {
+  color: #404bbf;
 }
 
 /* Portfolio */
@@ -284,6 +195,84 @@
   flex-grow: 0;
 }
 
+.menu-list {
+  
+}
+
+.page {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #e5e5e5;
+}
+.page-header {
+}
+.link {
+  text-decoration: none;
+}
+.page-header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.studio {
+  color: #2e2f42;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.site-nav {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.list {
+  list-style: none;
+}
+.site-nav-contacts {
+}
+.pages {
+  color: var(--dark-color);
+  list-style: none;
+  text-decoration: none;
+}
+.contacts {
+  font-style: normal;
+}
+.contacts a {
+  color: #434455;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: #404bbf;
+}
+
+
+.menu {
+}
 .menu-list {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
@@ -313,3 +302,34 @@
   order: 0;
   flex-grow: 0;
 }
+.app {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.page-footer {
+  background-color: #2e2f42;
+}
+.studio-footer {
+  color: #f4f4fd;
+}
+
