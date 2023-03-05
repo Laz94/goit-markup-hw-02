@@ -1,7 +1,13 @@
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #e5e5e5;}
+  background-color: #e5e5e5;
+}
+.page{
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #e5e5e5;
+}
 
 :root {
   --primary-brand-color: #4d5ae5;
@@ -25,12 +31,9 @@
   text-decoration: none;
 }
 
-/* Глобальні стилі */
 
 
-
-
-  /* Стилі логотипу */
+/* Стилі логотипу */
 
 .page-header-logo {
   font-family: "Raleway", sans-serif;
@@ -42,20 +45,10 @@
   color: #4d5ae5;
   text-decoration: none;
 }
-.web {
-  color: var(--primary-brand-color);
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 
 .studio {
-  color:#2e2f42;
+  color: #2e2f42;
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -66,7 +59,8 @@
   text-transform: uppercase;
   flex: none;
   order: 1;
-  flex-grow: 0;}
+  flex-grow: 0;
+}
 
 /* стилі меню навігації*/
 
@@ -92,15 +86,11 @@
 }
 
 .page-header-logo {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -155,11 +145,19 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
+  
+}
+.team p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .h1 {
@@ -248,7 +246,7 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
-.h2 {
+.teams {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -261,30 +259,10 @@
   border: 1px solid #000000;
 }
 
-.h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
-.our-team {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
 
 
 .page-footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -293,7 +271,7 @@
   color: #4d5ae5;
   text-decoration: none;
 }
-.studio-footer{
+.studio-footer {
   color: #f4f4fd;
 }
 .page-footer {
