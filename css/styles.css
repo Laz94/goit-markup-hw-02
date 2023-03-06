@@ -4,7 +4,6 @@
   background-color: #e5e5e5;
 }
 
-
 :root {
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
@@ -17,7 +16,6 @@
   --modal-overlay-color: #2e2f42;
   --hero-background-color: #2e2f42;
 }
-
 
 .adress-nav {
   font-family: "Roboto";
@@ -49,7 +47,6 @@
   color: #4d5ae5;
   text-decoration: none;
 }
-
 
 .hero {
   background-color: #2e2f42;
@@ -115,8 +112,6 @@
   border: 1px solid #000000;
 }
 
-
-
 .advantages {
   font-family: "Roboto";
   font-style: normal;
@@ -176,7 +171,6 @@
   text-decoration: none;
 }
 .studio-footer {
-  
 }
 .page-footer-logo:hover,
 .page-footer-logo:focus {
@@ -196,7 +190,6 @@
 }
 
 .menu-list {
-  
 }
 
 .page {
@@ -270,7 +263,6 @@
   color: #404bbf;
 }
 
-
 .menu {
 }
 .menu-list {
@@ -332,4 +324,3 @@
 .studio-footer {
   color: #f4f4fd;
 }
-
